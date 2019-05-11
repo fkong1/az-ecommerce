@@ -21,6 +21,6 @@ public class ProductController {
 
     @GetMapping(value = { "", "/" })
     public @NotNull Iterable<Product> getProducts() {
-        return productService.getAllProducts();
+        return null;
     }
 }
